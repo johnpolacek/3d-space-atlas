@@ -49,6 +49,16 @@ The preview is `http://127.0.0.1:4173`. The build creates portable `index.html`;
 - `data/stars.json`: searchable catalog subset.
 - `scripts/prepare-catalog.py`: star preprocessing; expects the [original HYG CSV](https://raw.githubusercontent.com/astronexus/HYG-Database/main/hyg/CURRENT/hygdata_v41.csv) at `.cache/hygdata_v41.csv`.
 
+## Deployment
+
+Hosted on Vercel. The build generates the self-contained atlas and copies it into `dist/`, the public output directory. Pushes to `main` deploy to production through the connected GitHub repository.
+
+To deploy manually from a linked checkout:
+
+```sh
+vercel --prod
+```
+
 ## Attribution
 
 Planet maps: **Solar System Scope / INOVE**, [texture collection](https://www.solarsystemscope.com/textures/), **CC BY 4.0**, based on NASA imagery. Composite maps have enhanced colors and some filled gaps; originals remain in `assets/`.
