@@ -1,0 +1,42 @@
+#
+#   VizieR Astronomical Server cdsarc.cds.unistra.fr
+#    Date: 2026-09-06T18:15:49 [V7.6]
+#   In case of problem, please report to:	cds-question@unistra.fr
+#
+#
+#Coosys	J2000:	eq_FK5 J2000
+#INFO	service_protocol=ASU	  IVOID of the protocol through which the data was retrieved
+#INFO	request_date=2026-09-06T18:15:49	  Query execution date
+#INFO	request=https://cdsarc.cds.unistra.fr/viz-bin/asu-tsv?-source=VII/155/rc3&-c=M31&-c.rs=10&-out=name,PGC,D25,e_D25,R25,e_R25,PA	  Full request URL
+#INFO	contact=cds-question@unistra.fr	  Email or URL to contact publisher
+#INFO	server_software=VizieR/7.6	  Software version
+#INFO	publisher=CDS	  Data centre that produced the VOTable
+#INFO	MaxTuples=50000	
+#INFO	-c=010.684708+41.268750,rs=10.	
+#Constraint -out=name,PGC,D25,e_D25,R25,e_R25,PA
+
+#RESOURCE=yCat_7155
+#Name: VII/155
+#Title: Third Reference Cat. of Bright Galaxies (RC3) (de Vaucouleurs+ 1991)
+#INFO	ivoid=ivo://cds.vizier/vii/155	    IVOID of underlying data collection
+#INFO	data_ivoid=ivo://cds.vizier/vii/155	    IVOID of underlying data collection
+#INFO	creator=de Vaucouleurs G.	    First author or institution
+#INFO	reference_url=https://cdsarc.cds.unistra.fr/viz-bin/cat/VII/155	    Dataset landing page
+#INFO	publication_date=2002-08-09	    Date of first publication in the data centre
+#INFO	rights_uri=https://cds.unistra.fr/vizier-org/licences_vizier.html	    Licence URI
+#Coosys	B2000:	eq_FK4 B2000
+#Table	VII_155_rc3:
+#Name: VII/155/rc3
+#Title: The revised RC3 catalog
+#Column	name	(a12)	Name	[ucd=meta.id]
+#Column	PGC	(a11)	PGC number	[ucd=meta.id;meta.main]
+#Column	D25	(F5.2)	? Log D25	[ucd=phys.angSize;src]
+#Column	e_D25	(F5.2)	? Mean error on log D25	[ucd=stat.error]
+#Column	R25	(F5.2)	? Log R25 (isophotal diameter ratio)	[ucd=phys.size;arith.ratio]
+#Column	e_R25	(F5.2)	? Mean error on log R25	[ucd=stat.error]
+#Column	PA	(I3)	? Position angle of the major axis	[ucd=pos.posAng]
+name	PGC	D25	e_D25	R25	e_R25	PA
+ 	 	[0.1arcmin]	[0.1arcmin]	 	 	deg
+------------	-----------	-----	-----	-----	-----	---
+NGC   224   	PGC 2557   	 3.28	 0.01	 0.49	 0.02	 35
+

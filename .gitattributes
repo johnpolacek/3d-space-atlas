@@ -1,0 +1,3 @@
+# Review the editable sources; the portable HTML contains bundled vendor shaders,
+# texture data, and catalog data, and is regenerated with npm run build.
+index.html -diff linguist-generated=true

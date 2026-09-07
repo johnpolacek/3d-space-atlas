@@ -1,0 +1,20 @@
+{
+  "name": "3d-space-atlas",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "description": "A self-contained, data-informed 3D atlas from Earth to the Local Group.",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "dev": "node scripts/serve.mjs",
+    "test": "node --test tests/*.test.mjs"
+  },
+  "dependencies": {
+    "astronomy-engine": "2.1.19",
+    "gsap": "^3.15.0",
+    "three": "0.180.0"
+  },
+  "devDependencies": {
+    "esbuild": "0.25.9"
+  }
+}

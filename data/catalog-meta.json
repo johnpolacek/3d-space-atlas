@@ -1,0 +1,16 @@
+{
+  "version": "HYG 4.1",
+  "epoch": "J2000.0",
+  "count": 109400,
+  "searchable": 958,
+  "maxParsecs": 1000,
+  "fields": [
+    "galacticX_ly",
+    "galacticZ_ly",
+    "negativeGalacticY_ly",
+    "apparentMagnitude",
+    "bvColorIndex"
+  ],
+  "source": "https://github.com/astronexus/HYG-Database",
+  "license": "CC BY-SA 4.0"
+}

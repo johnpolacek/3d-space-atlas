@@ -1,0 +1,55 @@
+{
+  "source": "Astropy ICRS to Galactic transform of the pinned LVDB RA/Dec values",
+  "galaxies": [
+    {
+      "id": "m31",
+      "longitude": 121.17356916793123,
+      "latitude": -21.576368482370434
+    },
+    {
+      "id": "m33",
+      "longitude": 133.61009840994495,
+      "latitude": -31.33056777681824
+    },
+    {
+      "id": "lmc",
+      "longitude": 279.9795463815873,
+      "latitude": -33.7343375871353
+    },
+    {
+      "id": "smc",
+      "longitude": 301.49263097115244,
+      "latitude": -44.67033218650064
+    },
+    {
+      "id": "m32",
+      "longitude": 121.14989647953708,
+      "latitude": -21.97638846807525
+    },
+    {
+      "id": "ngc205",
+      "longitude": 120.71780296335766,
+      "latitude": -21.13779357398321
+    },
+    {
+      "id": "ic10",
+      "longitude": 118.97268870390796,
+      "latitude": -3.3413374889331053
+    },
+    {
+      "id": "ngc6822",
+      "longitude": 25.351253672064914,
+      "latitude": -18.389211929538597
+    },
+    {
+      "id": "ic1613",
+      "longitude": 129.73779764280746,
+      "latitude": -60.57732050475891
+    },
+    {
+      "id": "wlm",
+      "longitude": 75.86368626010795,
+      "latitude": -73.62435169626137
+    }
+  ]
+}
